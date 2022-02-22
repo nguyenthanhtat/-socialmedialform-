@@ -1,0 +1,71 @@
+#text_sign{
+	
+	font-size:2rem;
+}
+@media only screen and (min-width:576px){
+	#container_logo{
+		position: relative;
+	}
+	#logo1{
+		position: absolute;
+		top:30%;
+		left: 40%
+	}
+}
+
+#btn_sign{
+	border-color: #4834d4;
+}
+#btn_sign:hover{
+	
+	background-color: #4834d4;
+}
+@media only screen and (max-width:575px){
+	#container_logo{
+		position: relative;
+		width: 60%
+	}
+	#logo1{
+		position: absolute;
+		top:30%;
+		left: 80%;
+	}
+}
+
+#btn_sendEmail:hover{
+	background-color: #95afc0;
+}
+@media only screen and (min-width:576px){
+	#group_btn_sendEmail{
+		justify-content: center;
+		width: 50%;
+		margin-left: 25%
+	}
+}
+@media only screen and (max-width:575px){
+	#group_btn_sendEmail{
+		justify-content: center;
+		width: 50%;
+		margin-left: 25%
+	}
+}
+
+/*intro*/
+.btn_sign{
+	border-color: #4834d4;
+}
+.btn_sign:hover{
+	
+	background-color: #4834d4;
+}
+.text_intro{
+	animation-name: example;
+  	animation-duration: 4s;
+  	animation-iteration-count: infinite;
+}
+@keyframes example {
+  0% {color: #c23616;}
+  25% {color: #686de0;}
+  50% {color: #badc58;}
+  100% {color: #f0932b;}
+}

@@ -1,0 +1,68 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+@media only screen and (min-width: 576px) {
+  .form_CLB {
+    width: 40%;
+  }
+  body {
+    position: relative;
+  }
+  .form_body {
+    width: 75%;
+    position: absolute;
+    top: 130%;
+    left: 10%;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .form_body {
+    width: 100%;
+  }
+  .form_CLB {
+    width: 100%;
+  }
+}
+.text_sign {
+  font-size: 2rem;
+}
+.btn_sign {
+  border-color: #4834d4;
+}
+.btn_sign:hover {
+  background-color: #4834d4;
+}
+
+.btn_form {
+  border: none;
+  background-color: inherit;
+  border-radius: 0;
+}
+.btn_form:focus {
+  background-color: inherit;
+  border-color: inherit;
+}
+.btn_form:hover {
+  border-bottom: solid 0.5px black;
+}
+.btn_form:visited {
+  border: none;
+  border-color: inherit;
+}
+.fileUpload {
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+}
+.fileUpload input.upload {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  cursor: pointer;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
